@@ -15,6 +15,7 @@
             android:layout_height="wrap_content"
             android:text="@string/action_newgame"
             android:id="@+id/buttonNewGame"
+            android:onClick="newGame"
             android:layout_gravity="center_horizontal" />
 
 
@@ -23,6 +24,7 @@
              android:layout_height="wrap_content"
              android:text="@string/action_rules"
              android:id="@+id/buttonRules"
+             android:onClick="rules"
              android:layout_gravity="center_horizontal" />
 
 
@@ -38,6 +40,7 @@
             android:layout_height="wrap_content"
             android:text="@string/action_cancel"
             android:id="@+id/buttonCancel"
+            android:onClick="cancel"
             android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ord">
+    <item>TABLE</item>
+    <item>ORANGE</item>
+    <item>KEYBOARD</item>
+    <item>TREASURE</item>
+    <item>CHANDELIER</item>
+    <item>DESSERT</item>
+    <item>SILVER</item>
+    <item>SPEAKER</item>
+    <item>PYRAMID</item>
+    <item>FIGS</item>
+</string-array>
+</resources>
