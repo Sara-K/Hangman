@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="178dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_newgame"
+            android:id="@+id/buttonNewGame"
+            android:layout_gravity="center_horizontal" />
+
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/action_rules"
+             android:id="@+id/buttonRules"
+             android:layout_gravity="center_horizontal" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_language"
+            android:id="@+id/buttonLanguage"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_cancel"
+            android:id="@+id/buttonCancel"
+            android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

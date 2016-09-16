@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="action_cancel">Avslutt</string>
+    <string name="action_language">Endre språk</string>
+    <string name="action_newgame">Nytt spill</string>
+    <string name="action_rules">Regler</string>
+</resources>

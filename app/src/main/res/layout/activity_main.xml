@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hangmans929593.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hangman1p"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="_ _ _ _ _ _ _ _ _"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="217dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1.67">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:id="@+id/buttonA"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:id="@+id/buttonB"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:id="@+id/buttonC"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:id="@+id/buttonD"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E"
+                android:id="@+id/buttonE"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:id="@+id/buttonF"
+                android:layout_row="0"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"
+                android:layout_margin="0dp"
+                android:layout_column="5" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:id="@+id/buttonG"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H"
+                android:id="@+id/buttonH"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/buttonI"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J"
+                android:id="@+id/buttonJ"
+                android:layout_row="1"
+                android:layout_column="3"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K"
+                android:id="@+id/buttonK"
+                android:layout_row="1"
+                android:layout_column="4"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:id="@+id/buttonL"
+                android:layout_row="1"
+                android:layout_column="5"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:id="@+id/buttonM"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N"
+                android:id="@+id/buttonN"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O"
+                android:id="@+id/buttonO"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P"
+                android:id="@+id/buttonP"
+                android:layout_row="2"
+                android:layout_column="3"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q"
+                android:id="@+id/buttonQ"
+                android:layout_row="2"
+                android:layout_column="4"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R"
+                android:id="@+id/buttonR"
+                android:layout_row="2"
+                android:layout_column="5"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:id="@+id/buttonS"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:id="@+id/buttonT"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="U"
+                android:id="@+id/buttonU"
+                android:layout_row="3"
+                android:layout_column="2"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:id="@+id/buttonV"
+                android:layout_row="3"
+                android:layout_column="3"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W"
+                android:id="@+id/buttonW"
+                android:layout_row="3"
+                android:layout_column="4"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:id="@+id/buttonX"
+                android:layout_row="3"
+                android:layout_column="5"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y"
+                android:id="@+id/buttonY"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z"
+                android:id="@+id/buttonZ"
+                android:layout_row="4"
+                android:layout_column="1"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Æ"
+                android:id="@+id/buttonÆ"
+                android:layout_row="4"
+                android:layout_column="2"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ø"
+                android:id="@+id/buttonØ"
+                android:layout_row="4"
+                android:layout_column="3"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Å"
+                android:id="@+id/buttonÅ"
+                android:layout_row="4"
+                android:layout_column="4"
+                android:onClick="gjettOrd"
+                android:theme="@style/AppTheme.Button"/>
+        </GridLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/settings_id"
+        android:title="@string/action_newgame"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/language_id"
+        android:title="@string/action_language"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/newgame_id"
+        android:title="@string/action_rules"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        app:showAsAction="never">
+    </item>
+
+</menu>

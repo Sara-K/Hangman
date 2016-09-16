@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ord" >
+        <item>BORD</item>
+        <item>APPELSIN</item>
+        <item>TASTATUR</item>
+        <item>SKATTESKISTE</item>
+        <item>LYSESTAKE</item>
+        <item>ØRKEN</item>
+        <item>BRONSJE</item>
+        <item>SANNSYNLIGHET</item>
+        <item>PYRAMIDE</item>
+        <item>FIKEN</item>
+    </string-array>
+</resources>
